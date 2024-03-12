@@ -164,6 +164,7 @@ function Converter({rates}){
             setChangeRateGive(false)
         }
     },[changerRateGive])
+
     useEffect(() => {
         if(rates && changeRateHave)
         {
@@ -171,6 +172,7 @@ function Converter({rates}){
             setChangeRateHave(false)
         }
     },[changeRateHave])
+
     useEffect(() => {
         if(rates && changeValueGive)
         {
@@ -178,6 +180,7 @@ function Converter({rates}){
             setChangeValueGive(false)
         }
     },[changeValueGive])
+    
     useEffect(() => {
         if(rates && changeValueHave)
         {
